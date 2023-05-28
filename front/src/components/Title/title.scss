@@ -1,0 +1,8 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}

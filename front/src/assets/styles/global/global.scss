@@ -1,0 +1,213 @@
+.page-wrapper {
+    overflow: hidden;
+    width: 100%;
+    background-color: $color-bg;
+}
+
+body {
+    font-family: $main-font;
+    color: var($color-black);
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+// .play {
+//     opacity: 0;
+//     right: -150px;
+//     transition: all 3s;
+// }
+
+// .play-on {
+//     right: 0;
+//     opacity: 1;
+// }
+
+.logo {
+    max-width: 158px;
+    display: block;
+    margin-right: 30px;
+
+    @media (max-width: $tab) {
+        max-width: 106px;
+    }
+}
+
+input::placeholder {
+    background: url(@/assets/img/search.svg) no-repeat;
+    background-position: 90% 0;
+    font-size: $text-size;
+    font-weight: $text-weight;
+    color: $color-input-search;
+    padding-left: 20px;
+    
+}
+
+.bag-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header {
+    font-weight: $header-weight;
+    font-size: $text-size;
+    line-height: 20px;
+    color: $color-white;
+
+    @media (max-width: $tab) {
+        font-size: $p-size;
+        line-height: 22px;
+    }
+}
+
+.text {
+    font-weight: $text-weight;
+    font-size: $text-size;
+    line-height: 20px;
+}
+
+.call {
+    font-weight: $title-weight;
+    font-size: $small-text-size;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: $color-text-green;
+}
+
+.sum {
+    font-weight: $title-weight;
+    font-size: 12px;
+    line-height: 15px;
+    font-variant: small-caps;
+    color: $color-black;
+}
+
+.name {
+    font-weight: $name-weight;
+    font-size: $small-text-size;
+    color: $color-black;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.text-green {
+    font-weight: $title-weight;
+    color: $color-dark-green;
+
+    @media (max-width: $tab) {
+        font-weight: $name-weight;
+        line-height: 20px;
+    }
+}
+
+.circle {
+    width: 713px;
+    height: 713px;
+    position: absolute;
+}
+
+.circle-right {
+    right: 0;
+    top: 0;
+}
+
+.circle-left {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.circle-right-green {
+    right: 0;
+    top: 0;
+}
+
+.circle-left-green {
+    transform: rotate(180deg);
+    left: 0;
+}
+
+.h1 {
+    font-weight: $title-weight;
+    font-size: $h1-size;
+    line-height: 67px;
+
+    @media (max-width: $tab) {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+.p {
+    font-weight: $text-weight;
+    font-size: $p-size;
+    line-height: 22px;
+}
+
+.leaf {
+    width: 32px;
+    height: 25px;
+    margin: 0 17px;
+}
+
+.right-leaf {
+    transform: rotateX(180deg);
+}
+
+.h2 {
+    font-weight: $title-weight;
+    font-size: $h2-size;
+    line-height: 55px;
+    margin-bottom: 39px;
+
+    @media (max-width: $tab) {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 14px;
+    }
+}
+
+.h2-white {
+    font-weight: $title-weight;
+    font-size: $h2-size;
+    line-height: 55px;
+    color: $color-white;
+
+    @media (max-width: $tab) {
+        font-size: 22px;
+        line-height: 27px;
+    }
+}
+
+.h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: $color-black;
+}
+
+.arrow {
+    width: 23px;
+}
+
+.small-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+}

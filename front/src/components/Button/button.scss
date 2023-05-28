@@ -1,0 +1,17 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.orange-button {
+    width: 220px;
+    height: 47px;
+    // padding: 15px 40px;
+    background-color: $color-orange;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: $title-weight;
+}
+.orange-button:hover {
+    transform: scale(1.2);
+}

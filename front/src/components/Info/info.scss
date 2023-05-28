@@ -1,0 +1,45 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.main{
+    position: relative;
+    &__bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+}
+.info {
+    position: relative;
+    z-index: 20;
+    &__container {
+        position: relative;
+    }
+    &__leaf {
+        position: absolute;
+        top: 210px;
+        left: -10px;
+    }
+    &__name {
+        max-width: 561px;
+        padding: 182px 0 336px 44px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    &__h1-thin {
+        font-weight: $header-weight;
+    }
+    &__text {
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &__pic {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 50%;
+    }
+}

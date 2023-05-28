@@ -1,0 +1,50 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.footer {
+    padding: 122px 0 17px 0;
+    display: flex;
+    background-color: $color-white;
+    // justify-content: center;
+    &__menu {
+        display: flex;
+        gap: 70px;
+    }
+    &__logo-box {
+        max-width: 220px;
+        color: $color-black-light;
+    }
+    &__logo {
+        margin-bottom: 17px;
+    }
+    &__list {
+        display: flex;
+        gap: 70px;
+    }
+    &__item-name {
+        margin-bottom: 26px;
+        font-weight: $name-weight;
+    }
+    &__item-info {
+        margin-bottom: 20px;
+    }
+    &__end {
+        padding: 118px 0 17px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 17px;
+    }
+    &__date {
+        color: $color-black;
+        opacity: 0.5;
+        font-weight: $text-weight;
+        line-height: 17px;
+    }
+    &__link {
+        color: $color-black;
+    }
+    &__link:hover {
+        text-decoration: underline;
+    }
+}

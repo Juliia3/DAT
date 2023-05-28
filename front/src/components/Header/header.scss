@@ -1,0 +1,67 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.menu {
+    padding: 15px 0;
+    background-color: $color-dark-green;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+
+    @media (max-width: $tab) {
+        padding: 14px 0;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 56px;
+
+        @media (max-width: $tab) {
+           justify-content: flex-start;
+        }    
+    }
+    
+    &__list {
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+
+        @media (max-width: $tab) {
+            display: none;
+        } 
+        :hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__line {
+
+        @media (max-width: $tab) {
+            display: none;
+        } 
+    }
+
+    &__log-link {
+        display: flex;
+        gap: 10px;
+
+        @media (max-width: $tab) {
+            
+        } 
+    }
+    &__login:hover {
+        text-decoration: underline;
+    }
+    &__button {
+        display: none;
+
+        @media (max-width: $tab) {
+            display: flex;
+            width: 28px;
+            height: 28px;
+        } 
+    }
+}
+

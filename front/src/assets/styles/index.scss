@@ -1,0 +1,18 @@
+/* Variables */
+@import './variables/_colors.scss';
+@import './variables/_fonts.scss';
+@import './variables/_sizing.scss';
+
+/* Global */
+@import './global/global.scss';
+@import './global/resets.scss';
+
+/* Components */
+@import '../../components/Header/header.scss';
+@import '../../components/Search/search.scss';
+@import '../../components/Info/info.scss';
+@import '../../components/Button/button.scss';
+@import '../../components/Title/title.scss';
+@import '../../components/Swiper/swiper.scss';
+@import '../../components/Footer/footer.scss';
+@import '../../components/AboutUs/aboutus.scss';

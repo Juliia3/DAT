@@ -1,0 +1,31 @@
+@import '../../assets/styles/variables/_colors.scss';
+@import '../../assets/styles/variables/_sizing.scss';
+
+.pay {
+    &__container {
+        padding: 76px 0 114px 0;
+        max-width: 65%;
+    }
+    &__title {
+        margin-bottom: 21px;
+    }
+    &__sub-title {
+        font-weight: $name-weight;
+        font-size: $sub-size;
+        line-height: 36px;
+        margin-bottom: 12px;
+    }
+    &__text-bold {
+        font-weight: $title-weight;
+    }
+    &__text-green {
+        margin-bottom: 15px;
+    }
+    &__text {
+        margin-bottom: 15px;
+        margin: 0 0 15px 15px;
+    }
+    &__block-box {
+        margin-bottom: 50px;
+    }
+}
